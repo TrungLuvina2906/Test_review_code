@@ -1,0 +1,1 @@
+const express = require('express'); const router = express.Router(); const bookings = []; router.post('/', (req, res) => { const booking = req.body; bookings.push(booking); res.status(201).send(booking); }); router.get('/', (req, res) => { res.send(bookings); }); module.exports = router;
