@@ -1,1 +1,0 @@
-using System;\n\nnamespace PayrollSystem.Domain.Entities\n{\n    public abstract class BaseEntity\n    {\n        public long Id { get; set; }\n        public DateTime CreatedAt { get; set; }\n        public DateTime? UpdatedAt { get; set; }\n    }\n}

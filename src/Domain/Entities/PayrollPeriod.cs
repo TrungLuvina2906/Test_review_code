@@ -1,1 +1,0 @@
-namespace PayrollSystem.Domain.Entities\n{\n    public class PayrollPeriod : BaseEntity\n    {\n        public string Code { get; set; } = default!;\n        public DateOnly DateFrom { get; set; }\n        public DateOnly DateTo { get; set; }\n        public bool Status { get; set; }\n    }\n}
